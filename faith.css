@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: url(faith\ and\ technology.png) center/cover no-repeat;
+    min-height: 100vh;
+}
+
+.main-header {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0;
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.6);
+    background: linear-gradient(to bottom, #FFFFFF, #FFA500);
+}
+
+
+.school-header {
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-container, .right-container {
+    display: flex;
+    align-items: center;
+  
+    background: rgba(255,255,255,0.8);
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+
+.tcgc-logo, .ics-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.tcgc-text, .program-text {
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    font-weight: 200;
+}
+
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: blue;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 60px;
+    padding: 25px;
+    background: rgba(255,255,255,0.90);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+
+.section-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #b36b00;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(255,180,80,0.7);
+}
+
+.text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+
+.card {
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #fff3d6, #ffe0b3);
+    border-left: 6px solid #ffa31a;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8a4b00;
+    margin-bottom: 8px;
+}
+
+
+.quote {
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+    padding: 18px;
+    font-style: italic;
+    font-size: 20px;
+    color: #704214;
+    border-radius: 12px;
+    margin-top: 40px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.20);
+}
+
+
+.footer {
+    text-align: center;
+    color: #4d2600;
+    font-size: 16px;
+    margin-top: 40px;
+}

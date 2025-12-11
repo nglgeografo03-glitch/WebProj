@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main{
+    width: 100%;
+    background-image: url(tcgc_school.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.god{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 30px; 
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.6); 
+    background: linear-gradient(to bottom, #FFFFFF, #FFA500);
+}
+
+
+.school-header {
+    position: relative;  
+    top: 0;
+    width: 95%;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 2;
+}
+
+.left-container, .right-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,0.8);
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+
+.tcgc-logo, .ics-logo{
+    width: 30px;
+    height: 30px;
+}
+
+.tcgc-text, .program-text{
+    font-size: 16px;
+    color: black;
+    margin: 0;
+    font-weight: 200;
+}
+
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: blue;
+}
+
+
+.welcome-section {
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.welcome-section h1 {
+    font-size: 28px;
+    color: #b36b00;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(255,180,80,0.7);
+}
+
+.welcome-section p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.welcome-section .quote {
+    font-style: italic;
+    color: #704214;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .school-header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .welcome-section {
+        padding: 25px;
+    }
+}
